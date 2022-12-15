@@ -1,0 +1,9 @@
+const userAlisov = function(a) {
+  a = {Имя: 'Максим',
+  Фамилия: 'Алисов',
+  Возраст: '33'}
+for (let key in a) {
+  console.log(key+ ': ' + a[key]);
+}  
+ }
+userAlisov();
